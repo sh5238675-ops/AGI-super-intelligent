@@ -1,0 +1,21 @@
+{
+  "model_name": "compact-coder-2gb",
+  "model_type": "gpt2",
+  "vocab_size": 50257,
+  "hidden_size": 768,
+  "num_hidden_layers": 12,
+  "num_attention_heads": 12,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 1024,
+  "quantization": "int8",
+  "target_size_mb": 2000,
+  "training": {
+    "batch_size": 8,
+    "learning_rate": 0.0001,
+    "epochs": 3,
+    "warmup_steps": 500,
+    "weight_decay": 0.01
+  },
+  "languages": ["en", "bn"],
+  "specialization": "programming"
+}
